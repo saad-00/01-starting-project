@@ -33,5 +33,5 @@
   </ul>
 
   <app-tasks
-  [name]="selectedUser.name"/>
+  [name]="selectedUser? selectedUser.name: '' "/>
 </main>
