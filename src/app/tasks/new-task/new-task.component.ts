@@ -17,7 +17,7 @@ export class NewTaskComponent {
   enteredSummary = "";
   enteredDate = "";
 
-  private tasksService = inject(TasksService)
+  private tasksService = inject(TasksService);
 
   onCancel(){
     this.close.emit();

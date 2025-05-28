@@ -27,9 +27,7 @@ constructor(private tasksService: TasksService) {
     return this.tasksService.getUserTasks(this.userId);
   }
 
-  onCompleteTask(id: string){
-    
-  }
+
 
   onStartAddTask(){
     this.isAddingTask = true;
